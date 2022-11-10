@@ -23,7 +23,7 @@ from . import api, config_flow
 from .const import DOMAIN
 from .oauth_impl import ZehnderCloudOauth2Implementation
 
-PLATFORMS: list[Platform] = [Platform.SENSOR, Platform.BINARY_SENSOR, Platform.FAN, Platform.SELECT]
+PLATFORMS: list[Platform] = [Platform.SENSOR, Platform.BINARY_SENSOR, Platform.FAN]
 DEFAULT_UPDATE_INTERVAL = timedelta(seconds=30)
 
 _LOGGER = logging.getLogger(__name__)
